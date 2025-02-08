@@ -5,18 +5,20 @@ body {
     text-align: center;
     align-content: center;
     line-height: 1.1;
+    background-image: url(../img/bgnew.gif);
+    background-repeat: repeat;
+    background-size: 20%;
+}
+
+/*  old BG
     background-image: url("../img/bg1.gif"), url("../img/bg2.gif");
     background-position: left, right;
     background-repeat: repeat-y, repeat-y;
     background-size: 50%, 50%;
-}
+*/
 
 .container {
     margin: auto;
-    background-image: url("../img/bg1.gif"), url("../img/bg2.gif");
-    background-position: left, right;
-    background-repeat: repeat-y, repeat-y;
-    background-size: 50%, 50%;
     width: auto;
 }
 
@@ -86,9 +88,10 @@ main {
 
     width: 1100px;
     padding: 10px 5px;
-    margin-top: 100px;
+    margin-top: 115px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -139,7 +142,13 @@ main {
     text-align: left;
     font-size: 30px;
     font-weight: bold;
-    font-style: italic;
+    font-family: 'Poiret One', sans-serif
+}
+
+.itemlist h2 {
+    font-weight: bold;
+    padding: 10px 0px;
+    font-size: 26px;
 }
 
 .itemcategory {
