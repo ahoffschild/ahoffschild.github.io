@@ -12,3 +12,61 @@ header h1 {
     text-align: center;
     color: #051c05;
 }
+
+header ul li {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+a.headerselect:link {
+    color: #051c05;
+    text-decoration-line: none;
+}
+
+a.headerselect {
+    color: #143314;
+    text-decoration-line: none;
+}
+
+a.headerselect:active {
+    color: rgb(20, 51, 20);
+    text-decoration-line: none;
+}
+
+.itemlist h1 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poiret One', sans-serif
+}
+
+.itemlist h2 {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.itemcategory {
+    font-size: 20px;
+    text-align: center;
+}
+
+.linkbutton {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.buttondescription h1 {
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+.contactcontainer li a {
+    text-align: center;
+    text-decoration: underline;
+    color:white;
+}

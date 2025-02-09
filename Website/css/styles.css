@@ -45,24 +45,7 @@ header ul {
 }
 
 header ul li {
-    font-weight: normal;
-    font-size: 20px;
     flex-grow: 1;
-}
-
-a.headerselect:link {
-    color: #051c05;
-    text-decoration-line: none;
-}
-
-a.headerselect {
-    color: #143314;
-    text-decoration-line: none;
-}
-
-a.headerselect:active {
-    color: rgb(20, 51, 20);
-    text-decoration-line: none;
 }
 
 .alignvertical {
@@ -130,53 +113,17 @@ main {
     width: auto ;
     height: 36px;
     padding: 14px 30px;
-
-    text-align: left;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Poiret One', sans-serif
 }
 
 .itemlist h2 {
-    font-weight: bold;
     padding: 10px 0px;
-    font-size: 26px;
 }
 
 .itemcategory {
     background-color: #143314;
     padding: 15px;
-
     height: 275px;
-    font-size: 20px;
-    text-align: center;
-
     display: flex;
-}
-
-.buttondescription {
-    padding: 8px;
-    padding-left: 16px;
-    width: 65%;
-}
-
-.buttondescription p {
-    height: 63%;
-    font-size: 17px;
-}
-
-.buttondescription h1 {
-    align-items: center;
-    display: grid;
-    height: 17%;
-    font-size: 32px;
-    font-weight: bold;
-    background-color: #143314;
-    margin-bottom: 5px;
-
-    padding: 0;
-    font-style: normal;
-    text-align: center;
 }
 
 .itemcategory img {
@@ -196,13 +143,7 @@ main {
     border-radius: 10px;
     background-color: #366927;
     border-color:#366927;
-    color: white;
-
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
     border-width: 10px;
-    text-align: center;
 }
 
 .linkbutton:active {
@@ -210,12 +151,31 @@ main {
     border-color: #051c05;
 }
 
+.buttondescription {
+    padding: 8px;
+    padding-left: 16px;
+    width: 65%;
+}
+
+.buttondescription p {
+    height: 63%;
+    font-size: 17px;
+}
+
+.buttondescription h1 {
+    align-items: center;
+    display: grid;
+    height: 17%;
+    background-color: #143314;
+    margin-bottom: 5px;
+}
+
+
 /* CONTACT */
 
 .contactContainer
 {
     background-color: #143314;
-
     height: fit-content;
     width: auto;
     display: flex;
@@ -226,7 +186,6 @@ main {
 .contactContainer p {
     font-size: 20px;
     width: 65%;
-
     padding: 46px 0;
 }
 
@@ -249,11 +208,6 @@ main {
     flex-grow: 1;
     margin: 13px 0;
     padding: 0;
-
-    text-align: center;
-    text-decoration: underline;
-
-    color:white;
 }
 
 .contactContainer li img {
