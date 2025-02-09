@@ -23,10 +23,10 @@ header {
     background-position: top, bottom;
     background-repeat: repeat-x, repeat-x;
     background-size: auto 90px, auto 35px;
-    width: calc(100% - 310px);
+    width: calc(100% - 225px);
     height: 80px;
     display: flex;
-    padding: 10px 190px 35px 120px;
+    padding: 10px 125px 35px 100px;
     margin-bottom: 8px;
 
     position: fixed;
