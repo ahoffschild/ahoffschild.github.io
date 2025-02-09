@@ -22,9 +22,9 @@ header {
     background-image: url("../img/barpattern2.png"), url("../img/barpattern.gif");
     background-position: top, bottom;
     background-repeat: repeat-x, repeat-x;
-    background-size: auto 55px, auto 35px;
+    background-size: auto 90px, auto 35px;
     width: calc(100% - 310px);
-    height: 45px;
+    height: 80px;
     display: flex;
     padding: 10px 190px 35px 120px;
     margin-bottom: 8px;
@@ -61,9 +61,9 @@ main {
     color: white;
     background-color: white;
 
-    width: 1100px;
+    width: 760px;
     padding: 10px 5px;
-    margin-top: 115px;
+    margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -86,9 +86,9 @@ main {
 .overviewcontent p {
     position: relative;
     flex-grow: 1;
-    height: 70px;
+    height: fit-content;
 
-    padding: 115px 0;
+    margin: auto;
 }
 
 .overviewcontent img {
@@ -213,4 +213,22 @@ main {
 .contactContainer li img {
     height: 100%;
     object-fit: contain;
+}
+
+/* Desktop Query */
+
+@media only screen and (min-width: 1100px) {
+
+    header {
+        background-size: auto 55px, auto 35px;
+        width: calc(100% - 310px);
+        height: 45px;
+        padding: 10px 190px 35px 120px;
+    }
+
+    .contentwrap {
+        width: 1100px;
+        margin-top: 115px;
+    }
+
 }
