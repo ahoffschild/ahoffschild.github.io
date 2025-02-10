@@ -127,10 +127,10 @@ main {
 }
 
 .itemcategory img {
-    height: auto;
+    height: fit-content;
     width: 35%;
     border-width: 4px;
-    margin: 10px;
+    margin: auto 10px;
     border-style: solid;
 }
 
