@@ -11,6 +11,8 @@ header h1 {
     font-size: 48px;
     text-align: center;
     color: #051c05;
+
+    text-shadow: 1px 1px 1.5px #427d31;
 }
 
 header ul li {
@@ -28,9 +30,13 @@ a.headerselect {
     text-decoration-line: none;
 }
 
+a.headerselect:hover {
+    text-shadow: 0px 0px 2px #051c05;
+}
+
 a.headerselect:active {
-    color: rgb(20, 51, 20);
-    text-decoration-line: none;
+    text-shadow: none;
+    font-weight: bold;
 }
 
 .itemlist h1 {
@@ -72,7 +78,7 @@ a.headerselect:active {
 }
 
 footer {
-    color: white;
+    color: #caffb3;
 }
 
 @media only screen and (min-width: 1100px) {
