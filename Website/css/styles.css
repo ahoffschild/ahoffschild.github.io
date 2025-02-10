@@ -1,8 +1,6 @@
 body {
     align-content: center;
-    background-image: url(../img/bgnew.gif);
-    background-repeat: repeat;
-    background-size: 20%;
+    background-color: black;
 }
 
 /*  old BG
@@ -15,10 +13,13 @@ body {
 .container {
     margin: auto;
     width: auto;
+
+    background-image: url(../img/bgnew.gif);
+    background-repeat: repeat;
+    background-size: 20%;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0);
     background-image: url("../img/barpattern2.png"), url("../img/barpattern.gif");
     background-position: top, bottom;
     background-repeat: repeat-x, repeat-x;
@@ -168,6 +169,23 @@ main {
     height: 17%;
     background-color: #143314;
     margin-bottom: 5px;
+}
+
+footer {
+    background-image: url("../img/footerpattern.gif"), url("../img/footerpattern2.png");
+    background-position: top, bottom;
+    background-repeat: repeat-x, repeat-x;
+    background-size: auto 35px, auto 90px;
+
+    height: 85px;
+    padding: 20px 0px; 
+    display: flex;
+}
+
+footer p {
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
 }
 
 
